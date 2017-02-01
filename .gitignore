@@ -1,3 +1,7 @@
 composer.phar
 config.php
-/vendor/*
+vendor/*
+App/Configs/*
+templates_c/*
+smarty_cache/*
+

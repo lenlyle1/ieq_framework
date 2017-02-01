@@ -1,3 +1,4 @@
 <?php
 
-echo "running in ieq framework";
+require_once "../bootstrap.php";
+
