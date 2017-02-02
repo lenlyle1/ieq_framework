@@ -1,11 +1,16 @@
-<html>
-    <head>
+{extends file='../site_base.tpl'}
 
-    </head>
+{block name="content"}
 
-    <body>
-        {block name="content"}{/block}
-    </body>
+    <div>
+        Welcome to the site
+    </div>
+
+    <div>
+    {for $count = 1 to 10}
+        line {$count} <br />
+    {/for}
+    </div>
 
 
-</html>
+{/block}

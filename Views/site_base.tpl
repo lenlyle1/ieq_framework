@@ -1,13 +1,22 @@
 <html>
     <head>
-    Header
+
+        <script type="text/javascript">
+
+        </script>
+
     </head>
 
     <body>
-        {block name="content"}{/block}
-    </body>
 
-    <footer>
-        Footer
-    </footer>
+        <header>
+            Header
+        </header>
+
+        {block name="content"}{/block}
+
+        <footer>
+            Footer
+        </footer>
+    </body>
 </html>

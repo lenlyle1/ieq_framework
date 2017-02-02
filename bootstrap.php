@@ -37,6 +37,7 @@ $smarty = new Smarty();
 if(!IS_LIVE){
     $smarty->debugging = true;
 }
+$smarty->caching = 1;
 $smarty->addPluginsDir(__DIR__ . '/App/Lib/Smarty/Plugins/');
 $smarty->setTemplateDir(__DIR__ . '/Views');
 $smarty->setCompileDir(__DIR__ . '/templates_c/');
